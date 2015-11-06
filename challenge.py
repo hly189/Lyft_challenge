@@ -21,7 +21,7 @@ class Solution():
 #Calculate the distance using Haversine function
 	def Haversine(self,x,y): 
 		self.a = math.pow(math.sin(self.diff_lat/2),2) + math.cos(self.to_radian(x.latitude))*math.cos(self.to_radian(y.latitude))*math.pow(self.diff_lat/2,2)
-		self.distance = 2*self.radius*math.asin(self.a)
+		self.distance = 2*self.radius*math.asin(math.sqrt(self.a))
 		return self.distance
 
 
