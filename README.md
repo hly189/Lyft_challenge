@@ -1,4 +1,4 @@
-Lyft Challenge
+Lyft Challenge written in Python 
 
 Use Haversine formula to calculate the distance between two point. 
 
