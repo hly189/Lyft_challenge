@@ -2,9 +2,9 @@ from challenge import *
 import math 
 
 def test_compare(AB,CD):
-	if AB < CD: print "CABD is the shorter path"
-	elif AB == CD: print "Either path is fine" 
-	else: print "ACDB is the shorter path "
+	if AB < CD: print "CABD is better path"
+	elif AB == CD: print "Either is fine" 
+	else: print "ACDB is better path "
 
 def check():
 	A = Solution()
