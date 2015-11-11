@@ -16,7 +16,7 @@ def check():
 	sol = Solution()
 	A.coordinate(input("Longtitude for A: "),input("Latitude for A: "))
 	B.coordinate(input("Longtitude for B: "),input("Latitude for B: "))
-	C.coordinate(input("Longtitude for C: "),input("Latitude for D: "))
+	C.coordinate(input("Longtitude for C: "),input("Latitude for C: "))
 	D.coordinate(input("Longtitude for D: "),input("Latitude for D: "))
 	AB.distance(A,B)
 	CD.distance(C,D)
